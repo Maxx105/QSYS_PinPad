@@ -71,7 +71,7 @@ if CurrentPage == "PinPad" then
 
   for i, v in ipairs(pinPadChars) do
     layout["Numbers "..i] = {
-      PrettyName     = v, 
+      PrettyName     = "Digits~"..v, 
       Style          = "Button", 
       Legend         = v, 
       Position       = PinPadPositions()[i], 
